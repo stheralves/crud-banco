@@ -1,7 +1,5 @@
 package com.banco.crudbanco.model;
 
-import java.math.BigDecimal;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,8 +19,5 @@ public @Data class Conta {
 	
 	@Column(name = "TITULAR")
 	private String titular;
-	
-	@Column(name = "saldo")
-	private BigDecimal saldo;
 
 }
